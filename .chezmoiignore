@@ -1,1 +1,2 @@
 arch-pkglist.txt
+etc/pacman.d/hooks/nvidia.hook
