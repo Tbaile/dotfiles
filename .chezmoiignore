@@ -1,2 +1,3 @@
 arch-pkglist.txt
 etc/pacman.d/hooks/nvidia.hook
+etc/pulse/daemon.conf
