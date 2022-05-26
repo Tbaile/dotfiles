@@ -3,3 +3,6 @@ etc/pacman.d/hooks/nvidia.hook
 etc/pulse/daemon.conf
 etc/default/grub
 settings.zip
+{{- if eq .chezmoi.os "darwin" -}}
+dot_config/autostart/private_ssh-add.desktop
+{{- end -}}
