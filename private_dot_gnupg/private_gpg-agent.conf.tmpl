@@ -1,5 +1,5 @@
 {{- if eq .chezmoi.os "darwin" -}}
-pinentry-program $(brew --prefix)/bin/pinentry-mac
+pinentry-program /usr/local/bin/pinentry-mac
 {{- else -}}
 pinentry-program /usr/bin/pinentry-kwallet
 {{- end -}}
