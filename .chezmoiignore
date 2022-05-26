@@ -1,8 +1,6 @@
 arch-pkglist.txt
-etc/pacman.d/hooks/nvidia.hook
-etc/pulse/daemon.conf
-etc/default/grub
+etc
 settings.zip
-{{- if eq .chezmoi.os "darwin" -}}
-dot_config/*
-{{- end -}}
+{{ if eq .chezmoi.os "darwin" -}}
+.config
+{{ end -}}
