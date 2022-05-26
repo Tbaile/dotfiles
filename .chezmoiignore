@@ -4,5 +4,5 @@ etc/pulse/daemon.conf
 etc/default/grub
 settings.zip
 {{- if eq .chezmoi.os "darwin" -}}
-dot_config/autostart/private_ssh-add.desktop
+dot_config/*
 {{- end -}}
