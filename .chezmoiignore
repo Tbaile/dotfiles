@@ -1,6 +1,4 @@
-arch-pkglist.txt
 etc
-settings.zip
 {{ if eq .chezmoi.os "darwin" -}}
 .config
 {{ end -}}
